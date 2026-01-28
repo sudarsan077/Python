@@ -28,6 +28,18 @@ if(f3==0 and f5==0):   #Binary operators : and, or, not
 else:
     print("The number is not divisible")
 
+name = "python"
+if name=="Java" or "html":
+    print("Login accepted")
+else:
+    print("Login denied")
+
+name = "python"
+if name in ["Java", "html"]:
+    print("Login accepted")
+else:
+    print("Login denied")
+
 input("\nPress enter to Exit")
 
 
